@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+}
+
+.quote-btn {
+  font-size: 20px;
+}
+
+.quote-box {
+  height: 300px;
+  background: #ecf0f1;
+  color: #34495e;
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+  font-family: 'Open Sans';
+  text-shadow: 2px 1px 1px #000;
+}
+
+.panel {
+  margin-top: 80px;
+}
+
+.quote-box:hover {
+  transform: scale(1.1);
+}
+
+.panel {
+  margin-top: 15px;
+}
+
+.title {
+  margin-top: 80px;
+  font-family: 'Arvo';
+  font-weight: 800;
+  font-size: 4em;
+  color: #e74c3c;
+  text-shadow: 1px 1px 1px #777;
+}
+
+.tagline {
+  color: #bdc3c7;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2em;
+}
+
+.bg {
+  background: url("http://skitterphoto.com/wp-content/uploads/2014/05/MMA-fighting-free-license-CC01-980x693.jpg") no-repeat center;
+  padding-top: 50px;
+  background-size: cover;
+}
+
+.quote-button {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  background: #e74c3c;
+  border-color: #e74c3c;
+  font-size: 40px;
+}
+
+.quote-button:hover {
+  background: white;
+  border-color: white;
+  color: #e74c3c;
+}
+
+.social-buttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#tweetButton,
+#mailButton {
+  font-size: 30px;
+  background: #e74c3c;
+  border-color: #e74c3c;
+}
