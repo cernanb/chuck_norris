@@ -9,10 +9,10 @@ $.getJSON( "http://api.icndb.com/jokes/random", function( data ) {
 
 
 $('.quote-btn').click(function(){
-  /*var number = Math.floor(Math.random() * (1 - 0 + 1)) + 0;*/
+  
   punchSound.play();  
     $.getJSON( "http://api.icndb.com/jokes/random", function( data ) {
-    /*var json = JSON.parse(data);*/
+    
     joke = data.value.joke
     console.log(data.value.joke);
   });
