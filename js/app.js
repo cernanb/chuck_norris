@@ -4,7 +4,7 @@ var punchSound = document.getElementById('punchSound');
 $.getJSON( "http://api.icndb.com/jokes/random", function( data ) {
  
   joke = data.value.joke
-  console.log(data.value.joke);
+  
 });
 
 
@@ -14,7 +14,7 @@ $('.quote-btn').click(function(){
     $.getJSON( "http://api.icndb.com/jokes/random", function( data ) {
     
     joke = data.value.joke
-    console.log(data.value.joke);
+    
   });
   $('.quote').html(joke);
 });
