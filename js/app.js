@@ -1,9 +1,10 @@
 var joke = "";
 var punchSound = document.getElementById('punchSound');
 
+
 $.getJSON( "http://api.icndb.com/jokes/random", function( data ) {
  
-  joke = data.value.joke
+  joke = data.value.joke;
   
 });
 
@@ -13,7 +14,7 @@ $('.quote-btn').click(function(){
   punchSound.play();  
     $.getJSON( "http://api.icndb.com/jokes/random", function( data ) {
     
-    joke = data.value.joke
+    joke = data.value.joke;
     
   });
   $('.quote').html(joke);
